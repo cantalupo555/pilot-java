@@ -19,6 +19,7 @@ public class test7 {
 
         System.out.printf("\nÁrea do terreno: %.2f%n", a);
         System.out.printf("Valor do terreno: %.2f%n", v);
+        sc.close();
 
     }
 }
