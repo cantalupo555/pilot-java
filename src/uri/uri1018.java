@@ -20,8 +20,7 @@ public class uri1018 {
         int c5 = resto10 / 5;
         int resto5 = resto10 % 5;
         int c2 = resto5 / 2;
-        int resto2 = resto5 % 2;
-        int c1 = resto2 / 1;
+        int c1 = resto5 % 2;
 
         System.out.println(c100 + " nota(s) de R$ 100,00");
         System.out.println(c50 + " nota(s) de R$ 50,00");
