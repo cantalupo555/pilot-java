@@ -27,4 +27,6 @@ A entrada contém 2 valores inteiros.
 
 Saída
 Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha.
-Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo.*/
+Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo.
+
+https://www.urionlinejudge.com.br/judge/pt/problems/view/1001 */
