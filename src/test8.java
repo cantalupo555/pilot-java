@@ -31,6 +31,7 @@ public class test8 {
         else {
             dia = "valor invalido";
         }
+
         System.out.println("Dia da semana: " + dia);
     }
 }
