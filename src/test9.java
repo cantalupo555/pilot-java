@@ -35,5 +35,6 @@ public class test9 {
        }
 
        System.out.println("Dia da semana: " + dia);
+       sc.close();
     }
 }
