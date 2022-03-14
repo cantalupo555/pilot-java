@@ -21,8 +21,13 @@ public class vetor8 {
                 count++;
             }
         }
-        double media = (double) soma / count;
-        System.out.printf("%.1f%n", media);
+
+        if (count == 0) {
+            System.out.println("Impossivel calcular");
+        } else {
+            double media = (double) soma / count;
+            System.out.printf("%.1f%n", media);
+        }
 
         sc.close();
     }
