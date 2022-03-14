@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class test19 {
+public class vetor4 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -13,14 +13,16 @@ public class test19 {
             vet[i] = sc.nextDouble();
         }
 
-        double soma = 0;
-        for (double vetS : vet) {
-            soma = soma + vetS;
+        double maior = vet[0];
+        int posicaoMaior = 0;
+        for (int i=0; i<N; i++) {
+            if (vet[i] > maior) {
+                maior = vet[i];
+                posicaoMaior = i;
+            }
         }
-        System.out.printf("%.2f%n", soma);
-
-        double media = soma / N;
-        System.out.printf("%.2f%n", media);
+        System.out.printf("%.1f%n", maior);
+        System.out.println(posicaoMaior);
 
         sc.close();
     }
