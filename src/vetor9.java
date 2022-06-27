@@ -17,7 +17,6 @@ public class vetor9 {
         int posicao = 0;
         for (int i=0; i<N; i++) {
             if (vetIdade[i] > idadeMaior) {
-                idadeMaior = vetIdade[i];
                 posicao = i;
             }
         }
