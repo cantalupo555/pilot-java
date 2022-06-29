@@ -33,7 +33,7 @@ public class vetor11 {
 
             // Soma altura do sexo feminino + cont
             if (S[i] == 'F') {
-                somaF = somaF + altura[i];
+                somaF += altura[i];
                 contF++;
             }
 
