@@ -7,29 +7,17 @@ public class Student {
 
     // Validar nota
     public boolean checkNota1() {
-        boolean result = true;
-        if (nota1 < 0.0 || nota1 > 30.0) {
-            result = false;
-        }
-        return result;
+        return nota1 >= 0.0 && nota1 <= 30.0;
     }
 
     // Validar nota
     public boolean checkNota2() {
-        boolean result = true;
-        if (nota2 < 0.0 || nota2 > 35.0) {
-            result = false;
-        }
-        return result;
+        return nota2 >= 0.0 && nota2 <= 35.0;
     }
 
     // Validar nota
     public boolean checkNota3() {
-        boolean result = true;
-        if (nota3 < 0.0 || nota3 > 35.0) {
-            result = false;
-        }
-        return result;
+        return nota3 >= 0.0 && nota3 <= 35.0;
     }
 
     public double mediaFinal(){
