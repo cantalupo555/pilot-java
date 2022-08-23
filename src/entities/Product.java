@@ -2,10 +2,17 @@ package entities;
 
 public class Product {
     public String name;
-    public Double price;
+    public double price;
     public int quantity;
 
-    public Double totalValeuStock() {
+    // Construtor
+    public Product(String name, double price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    public double totalValeuStock() {
         return price * quantity;
     }
 
@@ -19,7 +26,7 @@ public class Product {
         this.quantity -= quantity;
     }
 
-    // Print objeto
+    // Print toString
     public String toString() {
         return name
                 + String.format(", $ %.2f, ", price)
