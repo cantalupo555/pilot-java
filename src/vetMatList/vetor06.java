@@ -1,8 +1,8 @@
-package vetMat;
+package vetMatList;
 
 import java.util.Scanner;
 
-public class vetor6 {
+public class vetor06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

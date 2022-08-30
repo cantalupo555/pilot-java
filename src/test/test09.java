@@ -2,7 +2,7 @@ package test;
 
 import java.util.Scanner;
 
-public class test9 {
+public class test09 {
     public static void main(String[] args){
        Scanner sc = new Scanner(System.in);
        System.out.println("Selecione o dia da semana: (1-7)");

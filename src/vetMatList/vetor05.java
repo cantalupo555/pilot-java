@@ -1,8 +1,8 @@
-package vetMat;
+package vetMatList;
 
 import java.util.Scanner;
 
-public class vetor1 {
+public class vetor05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -13,11 +13,14 @@ public class vetor1 {
             vet[i] = sc.nextInt();
         }
 
-        for (int vetI : vet) {
-            if (vetI < 0) {
-                System.out.println(vetI);
+        int quantidade = 0;
+        for (int vetC : vet) {
+            if (vetC % 2 == 0) {
+                System.out.print(vetC + " ");
+                quantidade = quantidade + 1;
             }
         }
+        System.out.println("\n" + quantidade);
 
         sc.close();
     }

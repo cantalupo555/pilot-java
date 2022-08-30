@@ -2,7 +2,7 @@ package test;
 
 import java.util.Locale;
 
-public class test4 {
+public class test04 {
     public static void main(String[] args){
         String product1 = "Computer";
         String product2 = "Office desk";

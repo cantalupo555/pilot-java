@@ -1,8 +1,8 @@
-package vetMat;
+package vetMatList;
 
 import java.util.Scanner;
 
-public class matriz4 {
+public class matriz04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

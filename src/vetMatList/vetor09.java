@@ -1,8 +1,8 @@
-package vetMat;
+package vetMatList;
 
 import java.util.Scanner;
 
-public class vetor9 {
+public class vetor09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

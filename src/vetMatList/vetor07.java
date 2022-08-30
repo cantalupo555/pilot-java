@@ -1,9 +1,9 @@
-package vetMat;
+package vetMatList;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class vetor4 {
+public class vetor07 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -15,16 +15,18 @@ public class vetor4 {
             vet[i] = sc.nextDouble();
         }
 
-        double maior = vet[0];
-        int posicaoMaior = 0;
-        for (int i=0; i<N; i++) {
-            if (vet[i] > maior) {
-                maior = vet[i];
-                posicaoMaior = i;
+        double soma = 0;
+        for (double vetS : vet) {
+            soma += vetS;
+        }
+        double media = soma / N;
+        System.out.printf("%.3f%n", media);
+
+        for (double vetM : vet) {
+            if (vetM < media) {
+                System.out.printf("%.1f%n", vetM);
             }
         }
-        System.out.printf("%.1f%n", maior);
-        System.out.println(posicaoMaior);
 
         sc.close();
     }

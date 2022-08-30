@@ -1,7 +1,7 @@
 package test;
 
 import java.util.Locale;
-public class test3 {
+public class test03 {
     public static void main(String[] args) {
         System.out.print("Hello Word");
         System.out.println("Good Morning");

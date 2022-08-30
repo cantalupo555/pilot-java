@@ -1,6 +1,6 @@
 package test;
 
-public class test6 {
+public class test06 {
     public static void main(String[] args){
         double x = 3.0;
         double y = 4.0;
