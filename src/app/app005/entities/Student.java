@@ -1,4 +1,4 @@
-package entities;
+package app.app005.entities;
 
 public class Student {
     public double nota1;

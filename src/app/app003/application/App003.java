@@ -1,6 +1,6 @@
-package application;
+package app.app003.application;
 
-import entities.Rectangle;
+import app.app003.entities.Rectangle;
 
 import java.util.Locale;
 import java.util.Scanner;

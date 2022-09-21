@@ -1,6 +1,6 @@
-package application;
+package app.app004.application;
 
-import entities.Employee;
+import app.app004.entities.Employee;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package entities;
+package app.app001.entities;
 
 public class Triangle {
     // Atributos do triangulo

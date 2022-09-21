@@ -1,6 +1,6 @@
-package application;
+package app.app007.application;
 
-import entities.employeeList;
+import app.app007.entities.employeeList;
 
 import java.util.*;
 

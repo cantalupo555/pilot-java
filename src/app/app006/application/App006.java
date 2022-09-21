@@ -1,6 +1,6 @@
-package application;
+package app.app006.application;
 
-import entities.Account;
+import app.app006.entities.Account;
 
 import java.util.Locale;
 import java.util.Scanner;

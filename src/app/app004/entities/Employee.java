@@ -1,4 +1,4 @@
-package entities;
+package app.app004.entities;
 
 public class Employee {
     public String name;

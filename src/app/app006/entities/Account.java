@@ -1,4 +1,4 @@
-package entities;
+package app.app006.entities;
 
 public class Account {
     private final int number;

@@ -1,4 +1,4 @@
-package entities;
+package app.app003.entities;
 
 public class Rectangle {
     public double width;

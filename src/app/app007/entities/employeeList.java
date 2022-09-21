@@ -1,4 +1,4 @@
-package entities;
+package app.app007.entities;
 
 public class employeeList {
     private Integer id;

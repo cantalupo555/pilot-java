@@ -1,6 +1,6 @@
-package application;
+package app.app005.application;
 
-import entities.Student;
+import app.app005.entities.Student;
 
 import java.util.Locale;
 import java.util.Scanner;
